@@ -17,7 +17,6 @@ import matplotlib.pyplot as plt
 print("1. Определить корни")
 x = Symbol('x')
 func = 0.6*x**3 + 5.5*x**2 + 10*x - 5
-
 y = solve(func, x)
 print(f'найденные корни: X1 = {round(y[0],2)}; X2 = {round(y[1],2)}')
 
